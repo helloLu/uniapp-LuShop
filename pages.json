@@ -1,0 +1,85 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{"path": "pages/index/index"},
+		{"path": "pages/search/search"},
+		{"path": "pages/my/my"},
+		{"path": "pages/car/car"},
+		{"path": "pages/detail/detail"}
+		    ,{
+            "path" : "pages/regist/regist",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/find/find",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/login/login",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/account/account",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/order/order",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/address/address",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/newAddress/newAddress",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/myOrder/myOrder",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/suggest/suggest",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/about/about",
+            "style" : {}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"navigationStyle":"custom"
+	},
+	"tabBar": {
+			"blurEffect":"light",
+			"iconWidth":"30rpx",
+			"borderStyle":"white",
+			"backgroundColor":"#F0EBE7",
+			"list": [
+				{
+					"pagePath":"pages/index/index",
+					"iconPath":"static/icons/index.png",
+					"selectedIconPath":"static/icons/indexS.png"
+				},
+				{
+					"pagePath":"pages/search/search",
+					"iconPath":"static/icons/faxian.png",
+					"selectedIconPath":"static/icons/faxianS.png"
+				},
+				{
+					"pagePath":"pages/car/car",
+					"iconPath":"static/icons/car.png",
+					"selectedIconPath":"static/icons/carS.png"
+				},
+				{
+					"pagePath":"pages/my/my",
+					"iconPath":"static/icons/my.png",
+					"selectedIconPath":"static/icons/myS.png"
+				}
+			]	
+		 }
+
+}
